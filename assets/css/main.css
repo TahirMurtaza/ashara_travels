@@ -53,12 +53,12 @@
 --------------------------------------------------------------*/
 body {
 
-    background-color: #61a0b1;
-    min-height: 100vh;
-    background-color: #0e4653;
-    font-family: 'Source Sans Pro', Arial;
-    font-size: 14px;
-    color: #000;
+  background-color: #61a0b1;
+  min-height: 100vh;
+  background-color: #0e4653;
+  font-family: 'Source Sans Pro', Arial;
+  font-size: 14px;
+  color: #000;
 
   color: var(--color-default);
   background-color: var(#61a0b1);
@@ -275,7 +275,7 @@ section {
 /* Home Page Custom Header on page scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --color-background: #ffffff;
+  --color-background: #47b1cf;
   --color-secondary: #444444;
   --color-nav: #444444;
   --color-nav-hover: #d83535;
@@ -815,8 +815,8 @@ section {
 .hero {
   --color-default: #ffffff;
   --color-default-rgb: 255, 255, 255;
-  --color-background: #000000;
-  --color-background-rgb: 0, 0, 0;
+  --color-background: #47b1cf;
+  /* --color-background-rgb: 0, 0, 0; */
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -1630,4 +1630,3 @@ section {
   margin-right: 8px;
   color: var(--color-primary);
 }
-
